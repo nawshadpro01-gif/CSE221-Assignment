@@ -16,6 +16,7 @@ moves = [
 
 dist = [[-1]*n for _ in range(n)]
 
+
 q = deque()
 q.append((x1,y1))
 dist[x1][y1] = 0
