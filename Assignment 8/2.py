@@ -1,6 +1,8 @@
 import sys
 input = sys.stdin.readline
 
+
+
 def find(x):
     while p[x] !=x:
         p[x] =p[p[x]]
